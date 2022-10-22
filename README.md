@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/CIRCLECI-GWP/testing-apis-with-cypress.svg?style=svg)](https://circleci.com/gh/CIRCLECI-GWP/testing-apis-with-cypress)
+[![CircleCI](https://circleci.com/gh/CIRCLECI-GWP/test-apis-with-cypress.svg?style=svg)](https://circleci.com/gh/CIRCLECI-GWP/test-apis-with-cypress)
 
 <p align="center"><img src="https://avatars3.githubusercontent.com/u/59034516"></p>
 
