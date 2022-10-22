@@ -1,5 +1,5 @@
 describe("TODO api testing", () => {
-  let todoItem = 82;
+  let todoItem = 88;
   it("fetches Todo items - GET", () => {
     cy.request("/todos/").as("todoRequest");
     cy.get("@todoRequest").then((todos) => {
@@ -10,7 +10,7 @@ describe("TODO api testing", () => {
 
   it("deletes Todo items - DELETE", () => {
     cy.request("DELETE", `/todos/${todoItem}`).as("todoRequest");
-    // deletes Todo item with id = 9
+    // deletes Todo item with id = 88
     cy.get("@todoRequest").then((todos) => {
       expect(todos.status).to.eq(200);
       assert.isString(todos.body, "todo deleted!");
